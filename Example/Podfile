@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CountableLabel_Example' do
+  pod 'CountableLabel', :path => '../'
+
+  target 'CountableLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
