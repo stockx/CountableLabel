@@ -2,9 +2,9 @@
 
 
 ![Swift4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat")
-[![Platform](https://img.shields.io/cocoapods/p/EvenlyWrappedLabel.svg?style=flat)](http://cocoapods.org/pods/EvenlyWrappedLabel)
-[![Version](https://img.shields.io/cocoapods/v/EvenlyWrappedLabel.svg?style=flat)](http://cocoapods.org/pods/EvenlyWrappedLabel)
-[![License](https://img.shields.io/cocoapods/l/EvenlyWrappedLabel.svg?style=flat)](http://cocoapods.org/pods/EvenlyWrappedLabel)
+[![Platform](https://img.shields.io/cocoapods/v/CountableLabel.svg?style=flat)](https://cocoapods.org/pods/CountableLabel)
+[![Version](https://img.shields.io/cocoapods/v/CountableLabel.svg?style=flat)](https://cocoapods.org/pods/CountableLabel)
+[![License](https://img.shields.io/cocoapods/v/CountableLabel.svg?style=flat)](https://cocoapods.org/pods/CountableLabel)
 
 ## Example
 
@@ -27,7 +27,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 - [x] 3 types of animations (PushUp, PushDown, Fade) and a feature have no animation as well.
 - [x] Works with autolayout, honors intrinsic sizing, and self sizes on the fly.
 - [x] Works with labels created in code and in Interface Builder.
-- [x] Example app with lots of real-time configurations that lets you dynamically set, increment and decrement the values, animations, and text alignment of the label!
+- [x] Example app with lots of real-time configurations that lets you dynamically increment/decrement a value of your choosing, specify which animation you want to use, and specify text alignment of the label!
 
 <a name="usage"> Usage </a>
 --------------
@@ -106,7 +106,7 @@ In case Xcode complains (<i>"Cannot load underlying module for CountableLabel"</
 
 ### Manually
 
-If you prefer not to use CocoaPods, you can integrate `EvenlyWrappedLabel` into your project manually.
+If you prefer not to use CocoaPods, you can integrate `CountableLabel` into your project manually.
 
 <a name="license"> License </a>
 --------------
