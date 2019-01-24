@@ -222,9 +222,8 @@ public class CountableLabel: UILabel {
                 case .fade:
                     break
                 default:
-                    break
-//                    delay = Double.random(in: 0...11) / 100
-//                    duration += Double.random(in: 0...6) / 100 * Double.random(in: 0...1) == 1 ? 1 : -1
+                    delay = Double.random(in: 0...11) / 100
+                    duration += Double.random(in: 0...6) / 100 * Double.random(in: 0...1) == 1 ? 1 : -1
                 }
                 
                 UIView.animate(withDuration: duration, delay: delay, options: .curveEaseInOut, animations: {
