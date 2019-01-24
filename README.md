@@ -10,7 +10,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-`CountableLabel` is a `UILabel` that was heavily inspired by `GCountableUILabel`. This subclass will provided a variety of nice text setting animations especially when the label is used for dynamic number changes. The reason we built our own version of `GCountableUILabel` is because the original repo was written in `Objective-C`, on top of that decrementing/setting of different size text cause a lot of breaking in the pod. With the new version you are free to change the text to what ever you choose! Happy Counting!
+`CountableLabel` is a `UILabel` that was heavily inspired by [GCountableUILabel](https://github.com/gwangpa/GCountableUILabel). This subclass will provided a variety of nice text setting animations especially when the label is used for dynamic number changes. The reason we built our own version of `GCountableUILabel` is because the original repo was written in `Objective-C`, on top of that decrementing/setting of different size text cause a lot of breaking in the pod. With the new version you are free to change the text to what ever you choose! Happy Counting!
 
 ## Contents 
 1. [Features](#features)
