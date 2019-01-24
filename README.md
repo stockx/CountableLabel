@@ -1,5 +1,4 @@
-# CountableLabel
-###### add logo image here
+![Countable Label Logo](https://user-images.githubusercontent.com/22037563/51654954-6e5a9200-1f68-11e9-9192-286826475a18.png)
 
 
 ![Swift4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat")
@@ -60,17 +59,23 @@ let label = CountableLabel()
 -----
 
 ##### Before:
-###### add image here
+![Interface Builder Screenshot - Before](https://user-images.githubusercontent.com/22037563/51654376-9f859300-1f65-11e9-87d0-01035fb8f1f3.png)
 
 ##### After:
-###### add image here
+![Interface Builder Screenshot - After](https://user-images.githubusercontent.com/22037563/51654375-9f859300-1f65-11e9-9dde-d39eb8e530f8.png)
 
 ## Animation Type
 Set `label.animationType = .pushUp` to see text go bottom up across the label.
 
+![PushUp Animation Demo](https://user-images.githubusercontent.com/22037563/51654374-9f859300-1f65-11e9-938c-529cb4ef4a8f.gif)
+
 Set `label.animationType = .pushDown` to see text go top down across the label.
 
+![PushDown Animation Demo](https://user-images.githubusercontent.com/22037563/51654576-8af5ca80-1f66-11e9-8010-1d66eb59ac51.gif)
+
 Set `label.animationType = .fade` to see text fade in and out on the label.
+
+![Fade Animation Demo](https://user-images.githubusercontent.com/22037563/51654583-8f21e800-1f66-11e9-976f-499dd8ae6933.gif)
 
 <a name="installation"> Installation </a>
 --------------
@@ -85,10 +90,10 @@ CocoaPods 0.36 adds supports for Swift and embedded frameworks. You can install 
 $ gem install cocoapods
 ```
 
-To integrate `EvenlyWrappedLabel` into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate `CountableLabel` into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'EvenlyWrappedLabel'
+pod 'CountableLabel'
 ```
 
 Then, run the following command:
@@ -97,7 +102,7 @@ Then, run the following command:
 $ pod install
 ```
 
-In case Xcode complains (<i>"Cannot load underlying module for EvenlyWrappedLabel"</i>) go to Product and choose Clean (or simply press <kbd>⇧</kbd><kbd>⌘</kbd><kbd>K</kbd>).
+In case Xcode complains (<i>"Cannot load underlying module for CountableLabel"</i>) go to Product and choose Clean (or simply press <kbd>⇧</kbd><kbd>⌘</kbd><kbd>K</kbd>).
 
 ### Manually
 
