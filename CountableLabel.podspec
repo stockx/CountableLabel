@@ -7,6 +7,8 @@
 #
 
 Pod::Spec.new do |s|
+
+  s.swift_version = '4.0'
   s.name             = 'CountableLabel'
   s.version          = '0.1.1'
   s.summary          = 'A short description of CountableLabel.'
