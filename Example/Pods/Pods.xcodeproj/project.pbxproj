@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0202CAD21702467D592F263AF8F33300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		038C786686152044D49C3CFEF97A0C7D /* Pods-CountableLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14312C859DCC11EC20E202E82492381B /* Pods-CountableLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43525279D4E35B6D435F92B93609D22C /* CountableLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 961F7DA7B7A764299FED99932C3B5DC2 /* CountableLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211A890590ECA2AADC7C309FFA8E56F3 /* CountableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D467408B14B72E6E2651FE81D808F97 /* CountableLabel.swift */; };
+		433F97B0B0A082AE628B9A54231533C8 /* CountableLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC282F44962E4228A5BE3D14A7BFE2C /* CountableLabel-dummy.m */; };
+		43525279D4E35B6D435F92B93609D22C /* CountableLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E3762EDDA399110B99A005655687C0 /* CountableLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43A908E20B49A5746621F13766B97971 /* Pods-CountableLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96152024DEA6B199BDCAC76C9826FAEC /* Pods-CountableLabel_Tests-dummy.m */; };
-		5A03C65EB32D82A2B4E0FA1AAED583B4 /* CountableLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A10783156E2419C7F40FC7E04A47B34 /* CountableLabel-dummy.m */; };
 		67FED3AF21865226B33FF6EFE1B54EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		982056D28CAF4AF6C84E9F6113C0FEE4 /* Pods-CountableLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15438D0C627144A9392C3EEFF959CDEA /* Pods-CountableLabel_Example-dummy.m */; };
-		9D9EC2D40CF62B58C0B6D52F412A5748 /* CountableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89152103CBA17EC9CF3ACE74CC8881C8 /* CountableLabel.swift */; };
 		A9CE8A71DAB9DDE6AF8B4FE6FB96EBD7 /* Pods-CountableLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E765E9B4565F2E251E4206F01B615C /* Pods-CountableLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA0D777902131D2CCF25A3F08EED9E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,40 +37,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05FDC050391D821573EFF508D8E6C2D4 /* CountableLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountableLabel-prefix.pch"; sourceTree = "<group>"; };
+		015E50C24A32B869C9F7FF86F1FF761F /* CountableLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountableLabel.modulemap; sourceTree = "<group>"; };
 		0DA3412FF7BD31B517555C9E4252DD02 /* Pods-CountableLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CountableLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		14312C859DCC11EC20E202E82492381B /* Pods-CountableLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CountableLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		15438D0C627144A9392C3EEFF959CDEA /* Pods-CountableLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CountableLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		1A11C21EFED2C579ED97C5B30F923127 /* Pods-CountableLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountableLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1CCECA3EB47321E6E009AB6E4F2860A1 /* Pods-CountableLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountableLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1D467408B14B72E6E2651FE81D808F97 /* CountableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountableLabel.swift; path = CountableLabel/Classes/CountableLabel.swift; sourceTree = "<group>"; };
+		1EC282F44962E4228A5BE3D14A7BFE2C /* CountableLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountableLabel-dummy.m"; sourceTree = "<group>"; };
 		388F24E1FA442498892C041C97558ADE /* Pods-CountableLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountableLabel_Example-resources.sh"; sourceTree = "<group>"; };
-		3A1CD12523429B36346EED529576BD13 /* CountableLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountableLabel.xcconfig; sourceTree = "<group>"; };
 		3D2824D5386D07C05FF6558A8520FB51 /* Pods-CountableLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CountableLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		3DE7B9DF96A894C9EAF8A3887001BD2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E20027BD277E20A75AFFA6311B6FF9E /* CountableLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountableLabel.modulemap; sourceTree = "<group>"; };
+		57C0CD3700EB2735EE2201CABF08E34E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		60846A565A048AE80221D8D2E433125A /* CountableLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60846A565A048AE80221D8D2E433125A /* CountableLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CountableLabel.framework; path = CountableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA352FDA5B17A9FE8385C225175F7F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C1E43A7D403722DCEE5B407C002FBC0 /* Pods-CountableLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CountableLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7FD29AECE58A03EAE9C206DEA6B4B235 /* Pods-CountableLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountableLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84FB14825A593E30B0BC2B89A37558DF /* Pods-CountableLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CountableLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		87D00B473AF8762C4BD7A04EA82ABE0E /* Pods-CountableLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountableLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		89152103CBA17EC9CF3ACE74CC8881C8 /* CountableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountableLabel.swift; path = CountableLabel/Classes/CountableLabel.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		896947424E16E1DD93A26F6E97EF7BAF /* CountableLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CountableLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96152024DEA6B199BDCAC76C9826FAEC /* Pods-CountableLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CountableLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		961F7DA7B7A764299FED99932C3B5DC2 /* CountableLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountableLabel-umbrella.h"; sourceTree = "<group>"; };
-		9A10783156E2419C7F40FC7E04A47B34 /* CountableLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountableLabel-dummy.m"; sourceTree = "<group>"; };
 		A10661CC0C01176DFD13C2CAB85FEAEC /* Pods-CountableLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CountableLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A15EDF9E92F2E4E1414A467C121614B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1B7368F898C0CF93F78AB2F2849ECB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A2E765E9B4565F2E251E4206F01B615C /* Pods-CountableLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CountableLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A7E3762EDDA399110B99A005655687C0 /* CountableLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountableLabel-umbrella.h"; sourceTree = "<group>"; };
 		AE205BF15817475E3A1F8EE0C96CA5F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFFA66161A1E377C6FD2D80BDACF4D0B /* Pods-CountableLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountableLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C49F4BFBF8EAE08EC28EB99DB39EEB54 /* Pods_CountableLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountableLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB20E4DFCD45893F50BCA4BCACD3366A /* Pods_CountableLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountableLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0EFEA2120CB7A391EBB323CB881C102 /* CountableLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CountableLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C49F4BFBF8EAE08EC28EB99DB39EEB54 /* Pods_CountableLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CountableLabel_Example.framework; path = "Pods-CountableLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C724114A0F0518248C7B9258EDE65AAC /* CountableLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountableLabel-prefix.pch"; sourceTree = "<group>"; };
+		CB20E4DFCD45893F50BCA4BCACD3366A /* Pods_CountableLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CountableLabel_Tests.framework; path = "Pods-CountableLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D514A58E9951427CCA57678873C1C503 /* Pods-CountableLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountableLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DAD1F0CE8F6A96B274B6ADEEFEA9AF49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE74E7F24ADC58D5AF4090EF75B349A8 /* Pods-CountableLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountableLabel_Tests-resources.sh"; sourceTree = "<group>"; };
-		E8EFB9632E3D52936594D22BFF97C345 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1195352D54CCE8F93BE1E2CB50C798A /* CountableLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountableLabel.xcconfig; sourceTree = "<group>"; };
 		F5DDA0271339488F2165AF073C692568 /* Pods-CountableLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CountableLabel_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,12 +102,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57EDEB0A1DE5826E5EE1B9C3FD45183B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				015E50C24A32B869C9F7FF86F1FF761F /* CountableLabel.modulemap */,
+				F1195352D54CCE8F93BE1E2CB50C798A /* CountableLabel.xcconfig */,
+				1EC282F44962E4228A5BE3D14A7BFE2C /* CountableLabel-dummy.m */,
+				C724114A0F0518248C7B9258EDE65AAC /* CountableLabel-prefix.pch */,
+				A7E3762EDDA399110B99A005655687C0 /* CountableLabel-umbrella.h */,
+				7BA352FDA5B17A9FE8385C225175F7F2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CountableLabel";
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E32EFCAAC752ADEA14B85FC513921F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				896947424E16E1DD93A26F6E97EF7BAF /* CountableLabel.podspec */,
+				57C0CD3700EB2735EE2201CABF08E34E /* LICENSE */,
+				A1B7368F898C0CF93F78AB2F2849ECB9 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		66D4A390E71E540A5C3C9E99DAF217F8 /* Pods-CountableLabel_Tests */ = {
@@ -126,31 +150,6 @@
 			);
 			name = "Pods-CountableLabel_Tests";
 			path = "Target Support Files/Pods-CountableLabel_Tests";
-			sourceTree = "<group>";
-		};
-		6F23EB8807FEA74421679B4899C3EB5C /* CountableLabel */ = {
-			isa = PBXGroup;
-			children = (
-				89152103CBA17EC9CF3ACE74CC8881C8 /* CountableLabel.swift */,
-				90BEDCB84A497FA05C8A5CE947EC7A57 /* Pod */,
-				7919B0EE5743C8957CD0B3669E42C6B4 /* Support Files */,
-			);
-			name = CountableLabel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7919B0EE5743C8957CD0B3669E42C6B4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3E20027BD277E20A75AFFA6311B6FF9E /* CountableLabel.modulemap */,
-				3A1CD12523429B36346EED529576BD13 /* CountableLabel.xcconfig */,
-				9A10783156E2419C7F40FC7E04A47B34 /* CountableLabel-dummy.m */,
-				05FDC050391D821573EFF508D8E6C2D4 /* CountableLabel-prefix.pch */,
-				961F7DA7B7A764299FED99932C3B5DC2 /* CountableLabel-umbrella.h */,
-				E8EFB9632E3D52936594D22BFF97C345 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CountableLabel";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -192,20 +191,10 @@
 			path = "Target Support Files/Pods-CountableLabel_Example";
 			sourceTree = "<group>";
 		};
-		90BEDCB84A497FA05C8A5CE947EC7A57 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D0EFEA2120CB7A391EBB323CB881C102 /* CountableLabel.podspec */,
-				DAD1F0CE8F6A96B274B6ADEEFEA9AF49 /* LICENSE */,
-				A15EDF9E92F2E4E1414A467C121614B7 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A9E9B7E52482E8C0680ABCA7FDF7832C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6F23EB8807FEA74421679B4899C3EB5C /* CountableLabel */,
+				FA14D8A7B7C3B0B7E3AFC4F5BA8E89ED /* CountableLabel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -225,6 +214,17 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA14D8A7B7C3B0B7E3AFC4F5BA8E89ED /* CountableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1D467408B14B72E6E2651FE81D808F97 /* CountableLabel.swift */,
+				5E32EFCAAC752ADEA14B85FC513921F9 /* Pod */,
+				57EDEB0A1DE5826E5EE1B9C3FD45183B /* Support Files */,
+			);
+			name = CountableLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91C9A3799666191DA755F347FD50675E /* Build configuration list for PBXNativeTarget "CountableLabel" */;
 			buildPhases = (
-				C8B6C253133CF3E72FD067F38456657F /* Sources */,
+				BFC7B5734AB5AFFDBD525E014377CB56 /* Sources */,
 				780506BAF2F7E2EFBE1B27527143706D /* Frameworks */,
 				AB6FCFCDCD4727673EFEE5B34576357B /* Headers */,
 			);
@@ -355,12 +355,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8B6C253133CF3E72FD067F38456657F /* Sources */ = {
+		BFC7B5734AB5AFFDBD525E014377CB56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A03C65EB32D82A2B4E0FA1AAED583B4 /* CountableLabel-dummy.m in Sources */,
-				9D9EC2D40CF62B58C0B6D52F412A5748 /* CountableLabel.swift in Sources */,
+				433F97B0B0A082AE628B9A54231533C8 /* CountableLabel-dummy.m in Sources */,
+				211A890590ECA2AADC7C309FFA8E56F3 /* CountableLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +382,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02DFE40C0E9756566B84D0C26B4BD1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1195352D54CCE8F93BE1E2CB50C798A /* CountableLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountableLabel/CountableLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountableLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CountableLabel/CountableLabel.modulemap";
+				PRODUCT_MODULE_NAME = CountableLabel;
+				PRODUCT_NAME = CountableLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3CD33B25145933B990867AC6691EC09B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7FD29AECE58A03EAE9C206DEA6B4B235 /* Pods-CountableLabel_Tests.debug.xcconfig */;
@@ -582,9 +614,9 @@
 			};
 			name = Debug;
 		};
-		AE6C8E4E4CA5B211A93D5833522E422B /* Release */ = {
+		935C6E4F401BB4D953C5913F788D39D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A1CD12523429B36346EED529576BD13 /* CountableLabel.xcconfig */;
+			baseConfigurationReference = F1195352D54CCE8F93BE1E2CB50C798A /* CountableLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -607,7 +639,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -673,38 +705,6 @@
 			};
 			name = Release;
 		};
-		E4CB62C469D755C1C3C27DE01F2A10B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A1CD12523429B36346EED529576BD13 /* CountableLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CountableLabel/CountableLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CountableLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CountableLabel/CountableLabel.modulemap";
-				PRODUCT_MODULE_NAME = CountableLabel;
-				PRODUCT_NAME = CountableLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -738,8 +738,8 @@
 		91C9A3799666191DA755F347FD50675E /* Build configuration list for PBXNativeTarget "CountableLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4CB62C469D755C1C3C27DE01F2A10B1 /* Debug */,
-				AE6C8E4E4CA5B211A93D5833522E422B /* Release */,
+				02DFE40C0E9756566B84D0C26B4BD1B0 /* Debug */,
+				935C6E4F401BB4D953C5913F788D39D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

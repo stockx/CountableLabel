@@ -1,9 +1,10 @@
 {
   "name": "CountableLabel",
-  "version": "0.1.0",
+  "swift_version": "4.2",
+  "version": "0.1.1",
   "summary": "A short description of CountableLabel.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/andrewfoghel/CountableLabel",
+  "homepage": "https://github.com/stockx/CountableLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,11 @@
     "andrewfoghel": "andrewfoghel@gmail.com"
   },
   "source": {
-    "git": "https://github.com/andrewfoghel/CountableLabel.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/stockx/CountableLabel.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "9.3"
   },
   "source_files": "CountableLabel/Classes/**/*"
 }
