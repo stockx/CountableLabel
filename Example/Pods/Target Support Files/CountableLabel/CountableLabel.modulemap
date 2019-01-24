@@ -1,0 +1,6 @@
+framework module CountableLabel {
+  umbrella header "CountableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

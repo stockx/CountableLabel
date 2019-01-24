@@ -1,0 +1,22 @@
+{
+  "name": "CountableLabel",
+  "version": "0.1.0",
+  "summary": "A short description of CountableLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/andrewfoghel/CountableLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "andrewfoghel": "andrewfoghel@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/andrewfoghel/CountableLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CountableLabel/Classes/**/*"
+}

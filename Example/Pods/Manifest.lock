@@ -1,0 +1,16 @@
+PODS:
+  - CountableLabel (0.1.0)
+
+DEPENDENCIES:
+  - CountableLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CountableLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CountableLabel: 081fb2df2e182885d06b581950d1224406778c7e
+
+PODFILE CHECKSUM: 6c17881e35d4d950935efbc5517e8f8a8cc0359c
+
+COCOAPODS: 1.5.3
