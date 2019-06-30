@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   s.name             = 'CountableLabel'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'A subclass of UILabel that provides the ablity to animate how the text is animated.'
 
 # This description is used to generate tags and improve search results.
